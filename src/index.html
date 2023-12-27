@@ -129,7 +129,7 @@
     <h4 class="text-center mt-1 text-xl font-bold italic after:border-solid">
       " Do It Right Away "
     </h4>
-    <p class="my-5 mx-[10%] text-xl text-justify">
+    <p class="my-5 mx-[10%] text-xl text-justify mb-10">
       Prime Property Turkey was created to meet an ever-growing need for a
       Turkish real estate company to simply do things the right way. As Prime
       Property Turkey, we strive for the utmost transparency and communication
@@ -141,15 +141,33 @@
       valued. We here at Prime Property Turkey, strive to "do it the right way"
       every time we speak, meet, and buy .
     </p>
-    <div class="flex flex-col justify-center items-center gap-1 text-center">
-      <div class="text-xl">
+    <div
+      class="flex flex-col lg:flex-row lg:gap-5 justify-center rounded-2xl items-center gap-1 text-center bg-gray-200 w-full sm:w-[80%] mx-auto object-center"
+    >
+      <div class="text-xl py-3 lg:pl-5 lg:">
         <span>Quick</span>
         <span class="font-bold">Enquiry</span>
       </div>
-      <input type="text" placeholder="Full Name" />
-      <input type="email" placeholder="Email" />
-      <input type="number" placeholder="Phone Number" />
-      <select name="maxBudget" id="maxBudget">
+      <input
+        class="h-8 w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] px-5 rounded-md hover:border-red-700"
+        type="text"
+        placeholder="Full Name"
+      />
+      <input
+        class="h-8 w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] px-5 rounded-md hover:border-red-700"
+        type="email"
+        placeholder="Email"
+      />
+      <input
+        class="h-8 w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] px-5 rounded-md hover:border-red-700"
+        type="number"
+        placeholder="Phone Number"
+      />
+      <select
+        name="maxBudget"
+        id="maxBudget"
+        class="h-8 w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] rounded-md"
+      >
         <option class="text-center" value="maxBudget">Max Budget</option>
         <option class="text-center" value="maxBudget">Up To $100.00</option>
         <option class="text-center" value="maxBudget">Up To $200.00</option>
@@ -158,6 +176,12 @@
         <option class="text-center" value="maxBudget">$ 1 M</option>
         <option class="text-center" value="maxBudget">$ 2 M</option>
       </select>
+      <button
+        type="submit"
+        class="bg-red-700 px-5 py-2 my-2 mx-5 rounded-md text-white hover:bg-red-800"
+      >
+        Submit Enquiry
+      </button>
     </div>
   </body>
   <!-- Add these CDN links to your HTML file -->
