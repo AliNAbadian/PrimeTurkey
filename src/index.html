@@ -53,7 +53,9 @@
           height: 800px;
         "
       >
-        <div class="absolute mx-[5%] lg:mx-auto px-4 mt-[404px]">
+        <div
+          class="absolute mx-auto left-1/2 transform -translate-x-1/2 px-4 mt-[404px]"
+        >
           <div class="rounded-lg shadow backdrop-sepia-0 bg-white/60">
             <div class="text-center py-3 text-2xl font-bold lg:text-left mx-8">
               Find Your Ideal Property
@@ -139,8 +141,24 @@
       valued. We here at Prime Property Turkey, strive to "do it the right way"
       every time we speak, meet, and buy .
     </p>
-    <div>
-
+    <div class="flex flex-col justify-center items-center gap-1 text-center">
+      <div class="text-xl">
+        <span>Quick</span>
+        <span class="font-bold">Enquiry</span>
+      </div>
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email" />
+      <input type="number" placeholder="Phone Number" />
+      <select name="maxBudget" id="maxBudget">
+        <option class="text-center" value="maxBudget">Max Budget</option>
+        <option class="text-center" value="maxBudget">Up To $100.00</option>
+        <option class="text-center" value="maxBudget">Up To $200.00</option>
+        <option class="text-center" value="maxBudget">Up To $300.00</option>
+        <option class="text-center" value="maxBudget">Up To $500.00</option>
+        <option class="text-center" value="maxBudget">$ 1 M</option>
+        <option class="text-center" value="maxBudget">$ 2 M</option>
+      </select>
+    </div>
   </body>
   <!-- Add these CDN links to your HTML file -->
   <link
