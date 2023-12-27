@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link href="../dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
@@ -183,12 +187,106 @@
         Submit Enquiry
       </button>
     </div>
+    <div class="bg-gray-100">
+      <h1 class="text-3xl font-bold text-blue-800 text-center mt-5 pt-6">
+        Recommended Turkish Properties
+      </h1>
+      <hr class="w-48 h-[0.2rem] mx-auto my-4 bg-red-600 border-0 rounded" />
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="w-[80%] max-w-sm rounded overflow-hidden shadow-lg border-[0.1rem] border-gray-300"
+            >
+              <!-- Content for the first card -->
+              <img
+                class="w-full"
+                src="../assets/Kopya.webp"
+                alt="Sunset in the mountains"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                  MASLAK KORU is a spectacular project five minutes from Vadi
+                  İstanbul Mall and next to the Marriott....
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >#photography</span
+                >
+                <span
+                  class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >#travel</span
+                >
+                <span
+                  class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >#winter</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Add more swiper-slide elements for additional cards -->
+
+          <!-- Example additional slide -->
+          <div class="swiper-slide">
+            <div
+              class="w-[80%] max-w-sm rounded overflow-hidden shadow-lg border-[0.1rem] border-gray-300"
+            >
+              <img
+                class="w-full"
+                src="../assets/Kopya.webp"
+                alt="Sunset in the mountains"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-gray-700 text-base">
+                  MASLAK KORU is a spectacular project five minutes from Vadi
+                  İstanbul Mall and next to the Marriott....
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >#photography</span
+                >
+                <span
+                  class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >#travel</span
+                >
+                <span
+                  class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >#winter</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        // Initialize Swiper
+        var swiper = new Swiper(".swiper-container", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
   </body>
   <!-- Add these CDN links to your HTML file -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
   />
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/1.9.18/libphonenumber-js.min.js"></script>
