@@ -3,9 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      screens: {
-        lg: "1250px",
-      },
+      spacing: {
+        '128': '32rem',
+        '200': '40rem',
+        '256': '64rem',
+        '512': '128rem',
+        '1024': '256rem',
+      }
     },
   },
   plugins: [],
