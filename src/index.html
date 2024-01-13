@@ -88,40 +88,66 @@
           <div
             class="flex flex-col items-start justify-center w-full rounded-lg shadow backdrop-sepia-0 bg-white/60"
           >
-            <div class="px-5 py-6 text-3xl font-bold text-start text-blue-950">
+            <div
+              class="px-5 py-6 text-3xl font-bold text-center lg:text-start text-blue-950"
+            >
               Find Your Ideal Property
             </div>
             <div
               class="flex flex-row flex-wrap items-center justify-between w-full px-5 pb-4 lg:space-x-3 lg:px-3"
             >
-              <select name="City" id="City" class="w-2/5 lg:w-1/12">
+              <select
+                name="City"
+                id="City"
+                class="w-2/5 lg:w-1/12 rounded-lg mb-2 text-center border border-lg hover:border-red-700"
+              >
                 <option value="City">City</option>
                 <option value="All">All</option>
               </select>
-              <select name="City" id="City" class="w-2/5 lg:w-1/12">
+              <select
+                name="City"
+                id="City"
+                class="w-2/5 lg:w-1/12 rounded-lg mb-2 text-center border border-lg hover:border-red-700"
+              >
                 <option value="City">Type</option>
                 <option value="All">All</option>
               </select>
-              <select name="City" id="City" class="w-2/5 lg:w-1/12">
+              <select
+                name="City"
+                id="City"
+                class="w-2/5 lg:w-1/12 rounded-lg mb-2 text-center border border-lg hover:border-red-700"
+              >
                 <option value="City">Min Price</option>
                 <option value="All">All</option>
               </select>
-              <select name="City" id="City" class="w-2/5 lg:w-2/12">
+              <select
+                name="City"
+                id="City"
+                class="w-2/5 lg:w-2/12 rounded-lg mb-2 text-center border border-lg hover:border-red-700"
+              >
                 <option value="City">Max Price</option>
                 <option value="All">All</option>
               </select>
-              <select name="City" id="City" class="w-2/5 rounded-lg lg:w-2/12">
+              <select
+                name="City"
+                id="City"
+                class="w-2/5 rounded-lg lg:w-2/12 mb-2 text-center border border-lg hover:border-red-700"
+              >
                 <option value="City">Bedrooms</option>
                 <option value="All">All</option>
               </select>
               <input
-                class="w-2/5 lg:w-2/12"
+                class="w-2/5 lg:w-2/12 rounded-lg border border-lg mb-2 text-center hover:border-red-700"
                 type="text"
                 placeholder="  Reference ID"
                 name="Reference ID"
                 id="RFID"
               />
-              <button class="w-full lg:w-2/12">Submit</button>
+              <button
+                class="w-full lg:w-2/12 text-white bg-red-700 rounded-md hover:bg-red-800"
+              >
+                Submit
+              </button>
             </div>
           </div>
         </div>
@@ -197,75 +223,11 @@
         Recommended Turkish Properties
       </h1>
       <hr class="w-48 h-[0.2rem] mx-auto my-4 bg-red-600 border-0 rounded" />
+      <!-- Carousel -->
       <div class="flex items-center justify-center object-center pb-10 mx-2">
         <div
-          class="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 lg:grid-cols-4 place-items-center"
+          class="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 lg:grid-cols-3 place-items-center"
         >
-          <!-- Cards 1 -->
-          <div class="shadow-lg rounded-xl">
-            <img
-              class="w-full"
-              src="../assets/Kopya.webp"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="mb-2 text-xl font-bold text-blue-950">
-                Maslak Koru - Luxury Properties for Sale in Maslak
-              </div>
-            </div>
-            <div
-              class="flex flex-row items-center justify-between px-6 pt-2 pb-4 lg:px-3"
-            >
-              <div
-                class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
-              >
-                <img src="../assets/ico2.webp" alt="T" class="w-5" />
-                <span class="inline-block text-sm font-semibold text-gray-700"
-                  >İstanbul</span
-                >
-              </div>
-              <div
-                class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
-              >
-                <img src="../assets/ico3.webp" alt="T" class="w-5" />
-                <span class="inline-block text-sm font-semibold text-gray-700"
-                  >1</span
-                >
-              </div>
-              <div
-                class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
-              >
-                <img src="../assets/ico4.webp" alt="T" class="w-5" />
-                <span class="inline-block text-sm font-semibold text-gray-700"
-                  >1</span
-                >
-              </div>
-              <div
-                class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
-              >
-                <img src="../assets/ico1.webp" alt="T" class="w-5" />
-                <span class="inline-block text-sm font-semibold text-gray-700"
-                  >65</span
-                >
-              </div>
-            </div>
-            <p class="px-6 pb-4 text-sm text-gray-700">
-              MASLAK KORU is a spectacular project five minutes from Vadi
-              İstanbul Mall and next to the Marriott....
-            </p>
-            <div class="flex flex-row justify-between px-5 pb-4">
-              <p class="text-base font-bold text-red-600 xl:text-2xl">
-                $ 370,000
-              </p>
-              <button
-                type="submit"
-                class="px-3 py-1 text-white bg-red-700 rounded-md hover:bg-red-800"
-              >
-                Submit Enquiry
-              </button>
-            </div>
-          </div>
-          <!-- Cards 1 -->
           <div
             class="hidden max-w-sm overflow-hidden shadow-lg rounded-xl md:inline"
           >
@@ -498,7 +460,7 @@
       />
     </div>
     <h1 class="pt-6 mt-5 text-3xl font-bold text-center text-blue-900">
-      YouTube - Prime Videos
+      Testimoials
     </h1>
     <hr class="w-48 h-[0.2rem] mx-auto my-4 bg-red-600 border-0 rounded" />
     <!-- Container for demo purpose -->
@@ -512,12 +474,12 @@
               <div class="px-6 py-12 md:px-12">
                 <h2 class="mb-2 text-3xl font-bold text-primary">Anna Doe</h2>
                 <p class="mb-4 font-semibold">Graphic designer</p>
-                <p class="mb-6 text-neutral-500">
+                <p class="mb-6 text-neutral-500 text-justify">
                   Nunc tincidunt vulputate elit. Mauris varius purus malesuada
                   neque iaculis malesuada. Aenean gravida magna orci, non
                   efficitur est porta id. Donec magna diam.
                 </p>
-                <p class="mb-6 text-neutral-500">
+                <p class="mb-6 text-neutral-500 text-justify">
                   Ad, at blanditiis quaerat laborum officia incidunt cupiditate
                   dignissimos voluptates eius aliquid minus praesentium!
                   Perferendis et totam ipsum ex aut earum libero accusamus
@@ -1032,6 +994,92 @@
         </h3>
       </div>
     </footer>
+    <!-- Slider main container -->
+    <!-- <div class="swiper"> -->
+    <!-- Additional required wrapper
+      <div class="swiper-wrapper">
+        Slides
+        <div class="swiper-slide shadow-lg rounded-xl">
+          <img
+            class="w-full"
+            src="../assets/Kopya.webp"
+            alt="Sunset in the mountains"
+          />
+          <div class="px-6 py-4">
+            <div class="mb-2 text-xl font-bold text-blue-950">
+              Maslak Koru - Luxury Properties for Sale in Maslak
+            </div>
+          </div>
+          <div
+            class="flex flex-row items-center justify-between px-6 pt-2 pb-4 lg:px-3"
+          >
+            <div
+              class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
+            >
+              <img src="../assets/ico2.webp" alt="T" class="w-5" />
+              <span class="inline-block text-sm font-semibold text-gray-700"
+                >İstanbul</span
+              >
+            </div>
+            <div
+              class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
+            >
+              <img src="../assets/ico3.webp" alt="T" class="w-5" />
+              <span class="inline-block text-sm font-semibold text-gray-700"
+                >1</span
+              >
+            </div>
+            <div
+              class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
+            >
+              <img src="../assets/ico4.webp" alt="T" class="w-5" />
+              <span class="inline-block text-sm font-semibold text-gray-700"
+                >1</span
+              >
+            </div>
+            <div
+              class="flex flex-row gap-1 px-3 py-1 mb-2 mr-2 align-middle bg-gray-200 rounded-full"
+            >
+              <img src="../assets/ico1.webp" alt="T" class="w-5" />
+              <span class="inline-block text-sm font-semibold text-gray-700"
+                >65</span
+              >
+            </div>
+          </div>
+          <p class="px-6 pb-4 text-sm text-gray-700">
+            MASLAK KORU is a spectacular project five minutes from Vadi İstanbul
+            Mall and next to the Marriott....
+          </p>
+          <div class="flex flex-row justify-between px-5 pb-4">
+            <p class="text-base font-bold text-red-600 xl:text-2xl">
+              $ 370,000
+            </p>
+            <button
+              type="submit"
+              class="px-3 py-1 text-white bg-red-700 rounded-md hover:bg-red-800"
+            >
+              Submit Enquiry
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+      </div>
+      If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+    <!-- </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {});
+    </script> -->
   </body>
   <!-- Add these CDN links to your HTML file -->
   <link
